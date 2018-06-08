@@ -1,8 +1,8 @@
 ## Hello there
 
-## In works... 
+### In works... 
  
-Check my [profile](github.com/j-seixas) or my [gitlab profile](https://gitlab.com/j-seixas)!!   
+Check my [profile](https://github.com/j-seixas) or my [gitlab profile](https://gitlab.com/j-seixas)!!   
    
     
     
