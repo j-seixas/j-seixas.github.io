@@ -1,3 +1,12 @@
+## Hello there
+
+## In works... 
+ 
+Check my [profile](github.com/j-seixas) or my [gitlab profile](https://gitlab.com/j-seixas)!!   
+   
+    
+    
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/j-seixas/j-seixas.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
