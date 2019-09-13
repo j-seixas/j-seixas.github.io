@@ -8,10 +8,23 @@
 
 .leftBar {
     flex: 1;
-    border-color: black;
+    
+}
+
+.profileImage {
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.profileImage img {
+    max-width: 85%;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
 }
 
 .mainContent {
     flex: 3;
     padding: 5%;
+    background-color: #EFEFEF;
 }
