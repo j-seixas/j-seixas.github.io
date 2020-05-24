@@ -6,6 +6,8 @@
     "serve": "vue-cli-service serve",
     "deploy": "sh deploy.sh",
     "build": "vue-cli-service build",
+    "readme": "sh copy_readme.sh",
+    "travis-build": "npm run build; npm rum readme",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
