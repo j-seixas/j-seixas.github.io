@@ -1,5 +1,7 @@
 # j-seixas.github.io
 
+[![Build Status](https://travis-ci.org/j-seixas/j-seixas.github.io.svg?branch=dev)](https://travis-ci.org/j-seixas/j-seixas.github.io)
+
 ## Project setup
 ```
 npm install
