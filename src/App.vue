@@ -1,20 +1,15 @@
 <template>
-    <v-content>
-      <Navbar/>
-      <HelloWorld/>
-    </v-content>
-
+    <Intro/>
 </template>
 
 <script>
-import Navbar from './components/Navbar';
-import HelloWorld from './components/HelloWorld';
+import Intro from './components/Intro';
 
 export default {
   name: 'App',
 
   components: {
-    Navbar, HelloWorld,
+    Intro,
   },
 
   data: () => ({
@@ -22,3 +17,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+</style>

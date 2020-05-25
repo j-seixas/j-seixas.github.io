@@ -27,7 +27,10 @@
 <script>
   export default {
     name: 'HelloWorld',
-
+    // 8898B2
+    // 74767F
+    // EFEFEF
+    // 2E3741
     data: () => ({
     }),
   }
