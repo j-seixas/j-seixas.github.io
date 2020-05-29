@@ -27,23 +27,31 @@ export default {
     // 2E3741
 </script>
 
-<style lang="sass" scoped>
-    $font-name: 'Fira Code', monospace
-    $color-back: #2E3741
+<style lang="scss" scoped>
+    $font-name: 'Fira Code', monospace;
+    $bg-color: #222831;
+    $bg-color2: #393e46; //#2d4059
+    $fg-color1: #eeeeee;
+    $fg-color2: #ffffff;
+    $color: #ff5722;
 
-    div.hero-body
-        font-family: $font-name
-        color: white
-        background-color: $color-back
-        
-    .introDiv
-        height: 100vh
-        width: 100%
-        font-family: $font-name
-        background-color: $color-back
+    // #222831
+    // #2d4059 /
+    // #ff5722
+    // #eeeeee
 
-    h1, h2
-        color: white
+    div.hero-body {
+        font-family: $font-name;
+        color: $fg-color2;
+        background: $bg-color2;
+
+    }
+
+
+    h1, h2 {
+
+        color: $fg-color1;
+    }
 
     
 </style>
