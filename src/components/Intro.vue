@@ -12,6 +12,11 @@
                     <p>Student in Faculty of Engineering, University of Porto in Portugal <img src="https://img.icons8.com/offices/30/000000/portugal.png">.</p>
                     <p>Taking BSc (3 years) + MSc (2 years) in Informatics and Computer Engineering (currently on the 5th and last year).</p>
                 </h2>
+                <section>
+                    <a v-bind:href='pdfLink' download>
+                        <b-button type="is-light" class="bt">CV</b-button>
+                    </a>
+                </section>
             </div>
         </div>
     </section>
@@ -20,38 +25,30 @@
 <script>
 export default {
     name: 'Intro',
+    data () {
+        return {
+            pdfLink: require('../assets/CV.pdf')
+        }     
+    }
 }
-    // 8898B2
-    // 74767F
-    // EFEFEF
-    // 2E3741
+    
 </script>
 
 <style lang="scss" scoped>
     $font-name: 'Fira Code', monospace;
-    $bg-color: #222831;
-    $bg-color2: #393e46; //#2d4059
-    $fg-color1: #eeeeee;
-    $fg-color2: #ffffff;
-    $color: #ff5722;
-
-    // #222831
-    // #2d4059 /
-    // #ff5722
-    // #eeeeee
+    $bg-color: #1a1b1f;
+    $fg-color: #c4a265;
+    $font-color: #efefef;
 
     div.hero-body {
         font-family: $font-name;
-        color: $fg-color2;
-        background: $bg-color2;
+        color: $font-color;
+        background: $bg-color;
 
     }
-
 
     h1, h2 {
-
-        color: $fg-color1;
+        color: $font-color;
     }
-
     
 </style>
