@@ -1,15 +1,21 @@
 <template>
-    <Intro/>
+    <div>
+        <intro/>
+        <projects/>
+
+    </div>
 </template>
 
 <script>
-import Intro from './components/Intro';
+import Intro from './components/Intro.vue';
+import Projects from './components/Projects.vue';
 
 export default {
   name: 'App',
 
   components: {
-    Intro,
+    'intro': Intro, 
+    'projects': Projects
   },
 
   data: () => ({
