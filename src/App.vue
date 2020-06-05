@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class='app'>
         <intro/>
         <projects/>
 
@@ -24,8 +24,10 @@ export default {
 };
 </script>
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+<style lang="scss">
+  @import './styles/global';
 
+  .app {
+    background: $custom-c4;
+  }
 </style>

@@ -1,0 +1,41 @@
+// 1. Import the initial variables
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+$family-fira: 'Fira Code', monospace;
+$family-ssp: 'Source Sans Pro', sans-serif;
+
+$custom1: #1a1b1f;
+$custom1-invert: findColorInvert($custom1);
+$custom2: #c4a265;
+$custom2-invert: findColorInvert($custom2);
+
+$custom-c1: #34495e;
+$custom-c2: #5da0a2;
+$custom-c3: #aacfd0;
+$custom-c4: #f4f7f7;
+
+$custom-c1-invert: $custom-c4;
+$custom-c1-lighter: findLightColor($custom-c1);
+$custom-c1-darker: findDarkColor($custom-c1);
+
+$family-primary: $family-fira;
+// $background: $custom1;
+
+// 5. Add new color variables to the color map.
+@import "~bulma/sass/utilities/derived-variables";
+$addColors: (
+    'custom1':($custom1, $custom1-invert),
+    'custom2':($custom2, $custom2-invert),
+    'custom-c1':($custom-c1, $custom-c1-invert, $custom-c1-lighter, $custom-c1-darker),
+);
+$colors: map-merge($colors, $addColors);
+
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

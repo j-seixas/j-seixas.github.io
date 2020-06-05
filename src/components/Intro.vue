@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-large">
+    <section class="hero is-fullheight is-custom-c1">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title"> Work in progress...</h1>
@@ -14,7 +14,7 @@
                 </h2>
                 <section>
                     <a v-bind:href='pdfLink' download>
-                        <b-button type="is-light" class="bt">CV</b-button>
+                        <b-button type="is-custom-c1" size="is-medium" inverted> CV </b-button>
                     </a>
                 </section>
             </div>
@@ -35,20 +35,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    $font-name: 'Fira Code', monospace;
-    $bg-color: #1a1b1f;
-    $fg-color: #c4a265;
-    $font-color: #efefef;
+    // $font-name: 'Fira Code', monospace;
+    // $bg-color: #1a1b1f;
+    // $fg-color: #c4a265;
+    // $font-color: #efefef;
 
-    div.hero-body {
-        font-family: $font-name;
-        color: $font-color;
-        background: $bg-color;
+    // div.hero-body {
+    //     font-family: $font-name;
+    //     color: $font-color;
+    //     background: $bg-color;
 
-    }
+    // }
 
-    h1, h2 {
-        color: $font-color;
-    }
+    // h1, h2 {
+    //     color: $font-color;
+    // }
     
 </style>

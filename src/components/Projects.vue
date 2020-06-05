@@ -1,12 +1,16 @@
 <template>
-    <div class="columns is-multiline">
-        <single-project 
-            v-for='proj in projects' 
-            :title='proj.title' 
-            :description='proj.description' 
-            :tags='proj.tags' 
-            :key='proj.id'></single-project>
-    </div>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline is-custom1">
+                <single-project 
+                    v-for='proj in projects' 
+                    :title='proj.title' 
+                    :description='proj.description' 
+                    :tags='proj.tags' 
+                    :key='proj.id'></single-project>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
