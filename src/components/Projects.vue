@@ -1,10 +1,18 @@
 <template>
     <section class="section">
+        <section class="section">
+            <div class="container">
+                <h1 class="title is-2 section-naming">
+                    Projects
+                </h1>
+            </div>
+        </section>
         <div class="container">
-            <div class="columns is-multiline is-custom1">
+            <div class="columns is-multiline">
                 <single-project 
                     v-for='proj in projects' 
                     :title='proj.title' 
+                    :link='proj.link'
                     :description='proj.description' 
                     :tags='proj.tags' 
                     :key='proj.id'></single-project>
@@ -25,33 +33,88 @@ export default {
         projects: [
             {
                 id: 0,
-                title: 'Test projects',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta elit in lobortis feugiat. Aenean id augue aliquam, finibus velit non, lacinia tortor. Mauris tristique varius quam, in sagittis tortor dignissim vitae. In lobortis, felis ac condimentum pharetra, ex metus molestie tortor, vel mollis neque tortor ut sem. Duis sodales ex nec tincidunt feugiat.',
-                tags: ['one', 'two', 'three']
+                title: 'Reddit Unhide Posts',
+                link: 'https://github.com/j-seixas/reddit-unhide-posts',
+                description: 'Personal python script to unhide reddit posts hidden by the person',
+                tags: ['Python']
             },
             {
                 id: 1,
-                title: 'Test projects',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta elit in lobortis feugiat. Aenean id augue aliquam, finibus velit non, lacinia tortor. Mauris tristique varius quam, in sagittis tortor dignissim vitae. In lobortis, felis ac condimentum pharetra, ex metus molestie tortor, vel mollis neque tortor ut sem. Duis sodales ex nec tincidunt feugiat.',
-                tags: ['one', 'two', 'three']
+                title: 'Aurora',
+                link: 'https://github.com/j-seixas/aurora',
+                description: 'A single-player hack and slash game developed for the Computer Games Development course @ FEUP.',
+                tags: ['Unity', 'C#']
             },
             {
                 id: 2,
-                title: 'Test projects',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta elit in lobortis feugiat. Aenean id augue aliquam, finibus velit non, lacinia tortor. Mauris tristique varius quam, in sagittis tortor dignissim vitae. In lobortis, felis ac condimentum pharetra, ex metus molestie tortor, vel mollis neque tortor ut sem. Duis sodales ex nec tincidunt feugiat.',
-                tags: ['one', 'two', 'three']
+                title: 'FeupEvac',
+                link: 'https://github.com/j-seixas/feup-djco',
+                description: 'FeupEvac is a 2D platformer game where you play as a student studying at FEUP’s library. Project for the Computer Games Development course @ FEUP.',
+                tags: ['Unity', 'C#']
             },
             {
                 id: 3,
-                title: 'Test projects',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta elit in lobortis feugiat. Aenean id augue aliquam, finibus velit non, lacinia tortor. Mauris tristique varius quam, in sagittis tortor dignissim vitae. In lobortis, felis ac condimentum pharetra, ex metus molestie tortor, vel mollis neque tortor ut sem. Duis sodales ex nec tincidunt feugiat.',
-                tags: ['one', 'two', 'three']
-            }
+                title: 'GravityGuy',
+                link: 'https://github.com/j-seixas/GravityGuy',
+                description: 'LibGDX Android Game of GravityGuy for Object Oriented Programming Laboratory class @ FEUP. Linked with Google Play Services and released in Google Play Store (no longer available).',
+                tags: ['Java', 'LibGDX', 'Android', 'Google API']
+            },
+            {
+                id: 4,
+                title: 'grão',
+                link: 'https://github.com/j-seixas/feup-sinf',
+                description: 'Coffee Warehouse Management website connected with Virtual Machine with Primavera for Information Systems course @ FEUP',
+                tags: ['Vue', 'JavaScript', 'CSS', 'Primavera']
+            },
+            {
+                id: 5,
+                title: 'Tron Arcade',
+                link: 'https://github.com/j-seixas/feup-lcom',
+                description: 'Replica of Tron Arcade game for up to 4 people in a low level technology for Computer Laboratory course @ FEUP',
+                tags: ['C', 'MINIX', 'Assembly']
+            },
+            {
+                id: 6,
+                title: 'HangerJam',
+                link: 'https://github.com/j-seixas/retrojam2018',
+                description: 'Game for RetroJam 2018 hosted by IEEE UP Student Branch @ FEUP with "Reflection" as a theme',
+                tags: ['TIC80', 'Lua']
+            },
+            {
+                id: 7,
+                title: 'List It',
+                link: 'https://github.com/j-seixas/feup-ltw',
+                description: 'A website for creating and storing to-do lists. Project for Web Languages and Technologies course @ FEUP',
+                tags: ['JavaScript', 'PHP', 'CSS', 'HTML', 'SQLite']
+            },
+            {
+                id: 8,
+                title: 'simple-draw',
+                link: 'https://github.com/j-seixas/feup-asso/tree/master/simple-draw',
+                description: 'Development of a very simple graphical editor to draw basic geometric objects, manipulate and persist them. Project for Software Systems Architecture course @ FEUP',
+                tags: ['Typescript', 'HTML', 'Canvas', 'SVG', 'SASS', 'Bootstrap']
+            },
+            {
+                id: 9,
+                title: 'Eventually',
+                link: 'https://github.com/j-seixas/lbaw',
+                description: 'Event Management Project for Database and Web Applications Laboratory course @ FEUP',
+                tags: ['JavaScript', 'HTML', 'CSS', 'Laravel', 'PostgreSQL', 'Bootstrap']
+            },
+            {
+                id: 10,
+                title: 'aiad-source',
+                link: 'https://github.com/j-seixas/feup-aiad',
+                description: 'An agent-based Counter-Strike implementation for Agents and Distributed Artificial Intelligence course @ FEUP',
+                tags: ['Java', 'Repast Simphony', 'JADE', 'SAJaS', 'RapidMiner']
+            },
         ]
     })
 }
 </script>
 
-<style>
-
+<style lang="scss">
+    h1.section-naming {
+        padding-left: 1.25rem;
+    }
 </style>

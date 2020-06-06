@@ -4,10 +4,12 @@
 
 // Import fonts
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
-$family-fira: 'Fira Code', monospace;
-$family-ssp: 'Source Sans Pro', sans-serif;
+$family-fira-code: 'Fira Code', monospace;
+$family-montserrat: 'Montserrat', sans-serif;
+$family-fira-sans: 'Fira Sans', sans-serif;
 
 $custom1: #1a1b1f;
 $custom1-invert: findColorInvert($custom1);
@@ -19,11 +21,20 @@ $custom-c2: #5da0a2;
 $custom-c3: #aacfd0;
 $custom-c4: #f4f7f7;
 
-$custom-c1-invert: $custom-c4;
-$custom-c1-lighter: findLightColor($custom-c1);
-$custom-c1-darker: findDarkColor($custom-c1);
+$custom-y1: #fbb630;
+$custom-y1-invert: findColorInvert($custom-y1);
+$custom-y1-light: findLightColor($custom-y1);
+$custom-y1-dark: findDarkColor($custom-y1);
+$custom-y2: #fff2cc;
+$custom-y2-invert: findColorInvert($custom-y1);
 
-$family-primary: $family-fira;
+
+$custom-c1-invert: $custom-c4;
+$custom-c1-light: findLightColor($custom-c1);
+$custom-c1-dark: findDarkColor($custom-c1);
+
+$family-primary: $family-fira-sans;
+$family-monospace: $family-fira-code;
 // $background: $custom1;
 
 // 5. Add new color variables to the color map.
@@ -31,11 +42,13 @@ $family-primary: $family-fira;
 $addColors: (
     'custom1':($custom1, $custom1-invert),
     'custom2':($custom2, $custom2-invert),
-    'custom-c1':($custom-c1, $custom-c1-invert, $custom-c1-lighter, $custom-c1-darker),
+    'custom-c1':($custom-c1, $custom-c1-invert, $custom-c1-light, $custom-c1-dark),
+    'custom-y1':($custom-y1, $custom-y1-invert, $custom-y1-light, $custom-y1-dark),
+    'custom-y2':($custom-y2, $custom-y2-invert)
 );
 $colors: map-merge($colors, $addColors);
 
 
 // Import Bulma and Buefy styles
 @import "~bulma";
-@import "~buefy/src/scss/buefy";
+// @import "~buefy/src/scss/buefy";
