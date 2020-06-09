@@ -10,7 +10,7 @@
                     <p>Taking BSc (3 years) + MSc (2 years) in Informatics and Computer Engineering (currently on the 5th and last year).</p>
                 </h2>
                 <section>
-                    <a v-bind:href='pdfLink' download class="button is-custom-y1">CV</a>
+                    <a v-bind:href='pdfLink' download class="button is-custom-y1 is-light">CV</a>
                 </section>
             </div>
         </div>
@@ -36,4 +36,7 @@ export default {
         font-size: 4rem;
     }
     
+    a.is-custom-y1.is-light {
+        box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+    }
 </style>

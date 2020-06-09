@@ -49,6 +49,5 @@ $addColors: (
 $colors: map-merge($colors, $addColors);
 
 
-// Import Bulma and Buefy styles
+// Import Bulma styles
 @import "~bulma";
-// @import "~buefy/src/scss/buefy";
