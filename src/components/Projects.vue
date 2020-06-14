@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section id="project" class="section">
         <section class="section">
             <div class="container">
                 <h1 class="title is-2 section-naming is-family-code">
