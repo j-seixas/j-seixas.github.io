@@ -55,7 +55,11 @@ export default {
     }
 
     a.icon-link {
-        color: $text 
+        color: $text;
+
+        &:hover {
+            color: $custom-y1-dark;
+        }
     }
 
 </style>
