@@ -2,9 +2,8 @@
     <section class="section">
         <section class="section">
             <div class="container">
-                <h1 class="title is-2 section-naming">
-                    Projects
-                </h1>
+                <h1 class="title is-2 section-naming is-family-code">
+                    > cd/projects</h1>
             </div>
         </section>
         <div class="container">
