@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight-with-navbar">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title name">
@@ -54,8 +54,6 @@ export default {
 <style lang="scss" scoped>
     @import '../styles/global';
 
-    $visible: none;
-
     h1.name {
         font-size: 4rem;
     }
@@ -89,12 +87,9 @@ export default {
         }
 
         span.cv {
-
             visibility: hidden;
         }
     }
-    
-
 
     a.is-custom-y1.is-light {
         box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
