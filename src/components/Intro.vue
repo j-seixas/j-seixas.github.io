@@ -2,8 +2,9 @@
     <section id="home" class="hero is-fullheight-with-navbar">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title name">
-                    João Seixas
+                <h1 class="title name is-spaced">
+                    <span class="first-name">João </span>
+                    <span class="last-name"> Seixas</span>
                 </h1>
                 <h2 class="subtitle">
                     <p><a href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742"> BSc + MSc Informatics and Computer Engineering</a> Student <a href="https://sigarra.up.pt/feup/pt/web_page.inicial">@FEUP</a></p>
@@ -54,10 +55,18 @@ export default {
 <style lang="scss" scoped>
     @import '../styles/global';
 
-    h1.name {
+    h1.title.name {
         font-size: 4rem;
+
     }
 
+    span.first-name {
+        font-weight: 500;
+    }
+    span.last-name {
+        font-weight: 800;
+    }
+    
     h2.subtitle {
         a {
             color: $text;
