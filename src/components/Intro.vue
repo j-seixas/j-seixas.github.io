@@ -25,16 +25,25 @@
                             <i class="fab fa-2x fa-linkedin"></i>
                         </a>
                     </span>
-                        <span class="icon is-medium resume">
-                            <a v-bind:href='pdfLink' download class="icon-link">
-                                <i class="fas fa-2x fa-file-download"></i>
-                                
-                            </a>
-                        </span>
-                        <span class="cv">
-                            <b> Curriculum </b>
-                        </span>
+                    <span class="icon is-medium resume">
+                        <a v-bind:href='pdfLink' download class="icon-link">
+                            <i class="fas fa-2x fa-file-download"></i>
+                            
+                        </a>
+                    </span>
+                    <span class="cv">
+                        <b> Curriculum </b>
+                    </span>
                 </div>
+            </div>
+        </div>
+        <div class="hero-foot has-text-centered">
+            <div class="container">
+                <span class="icon is-large">
+                    <a :class="{ 'dont-show': !showArrow }" class="icon-link" href="#" v-scroll-to="'#project'">
+                        <i class="fas fa-2x fa-chevron-down"></i>
+                    </a>
+                </span>
             </div>
         </div>
     </section>
@@ -45,8 +54,32 @@ export default {
     name: 'Intro',
     data () {
         return {
+            showArrow: true,
             pdfLink: require('../assets/CV.pdf')
         }     
+    },
+
+    mounted () {
+        window.addEventListener('scroll', this.handleScroll)
+    },
+    beforeDestroy () {
+        window.removeEventListener('scroll', this.handleScroll)
+    },
+
+    methods: {
+        // the function to call when the user scrolls, added as a method
+        handleScroll(){
+            // when the user scrolls, check the pageYOffset
+            if(window.pageYOffset > 100){
+                // user is scrolled
+                if(this.showArrow) 
+                    this.showArrow = false
+            } else {
+                // user is at top of page
+                if(!this.showArrow) 
+                    this.showArrow = true
+            }
+        }
     }
 }
     
@@ -102,5 +135,9 @@ export default {
 
     a.is-custom-y1.is-light {
         box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+    }
+
+    a.icon-link.dont-show {
+        visibility: hidden;
     }
 </style>
