@@ -40,7 +40,7 @@
         <div class="hero-foot has-text-centered">
             <div class="container">
                 <span class="icon is-large">
-                    <a :class="{ 'dont-show': !showArrow }" class="icon-link" href="#" v-scroll-to="'#project'">
+                    <a :class="{ 'dont-show': !showArrow }" class="icon-link" href="#" v-scroll-to="'#education'">
                         <i class="fas fa-2x fa-chevron-down"></i>
                     </a>
                 </span>
