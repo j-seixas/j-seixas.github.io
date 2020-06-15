@@ -16,7 +16,7 @@
                 <a class="navbar-item is-family-code" href="#" v-scroll-to="'#education'">
                     Education_
                 </a>
-                <a class="navbar-item is-family-code">
+                <a class="navbar-item is-family-code" href="#" v-scroll-to="'#skills'">
                     Skills_
                 </a>
                 <a class="navbar-item is-family-code" href="#" v-scroll-to="'#project'">

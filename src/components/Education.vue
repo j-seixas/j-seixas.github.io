@@ -12,9 +12,7 @@
                 <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2015 ~ Present (Expected Jul 2020)</p>
                 <p class="subtitle is-6 place">
                     <span class="icon is-small">
-                        <a class="icon-link">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </a>
+                        <i class="fas fa-map-marker-alt"></i>
                     </span> Faculty of Engineering at University of Porto</p>
 
             </div>
@@ -24,9 +22,7 @@
                 <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2019 ~ Feb 2020</p>
                 <p class="subtitle is-6 place">
                     <span class="icon is-small">
-                        <a class="icon-link">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </a>
+                        <i class="fas fa-map-marker-alt"></i>
                     </span> Faculty of Computer Science and Telecommunications at Cracow University of Technology</p>
             </div>
         </div>
@@ -48,8 +44,10 @@ export default {
 
     div.edu-entry {
         margin-left: 2.5rem;
+        margin-bottom: 1rem;
         border-left: 0.2rem solid $custom-y1-dark;
         padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
         padding-left: 1.25rem;
 
         p.title.is-4 {

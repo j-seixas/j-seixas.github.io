@@ -3,6 +3,7 @@
         <navbar/>
         <intro/>
         <education/>
+        <skills/>
         <projects/>
 
     </div>
@@ -12,6 +13,7 @@
 import Navbar from './components/Navbar.vue';
 import Intro from './components/Intro.vue';
 import Education from './components/Education.vue';
+import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue';
 
 export default {
@@ -21,6 +23,7 @@ export default {
     'navbar': Navbar,
     'intro': Intro,
     'education': Education, 
+    'skills': Skills,
     'projects': Projects
   },
 
