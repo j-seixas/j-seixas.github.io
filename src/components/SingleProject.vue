@@ -2,7 +2,7 @@
     <div class="column is-one-third-widescreen is-half-desktop is-half-tablet is-full-mobile">
         <div class="card proj">
             <div class="card-content">
-                <div class="level is-mobile">
+                <div class="level">
                     <div class="level-left">
                         <div class="level-item">
                             <p class="title is-4">{{title}}</p>

@@ -1,11 +1,9 @@
 <template>
     <section id="project" class="section">
-        <section class="section">
-            <div class="container">
-                <h1 class="title is-2 section-naming is-family-code">
-                    > cd projects</h1>
-            </div>
-        </section>
+        <div class="container container-header">
+            <h1 class="title is-2 section-naming is-family-code">
+                > cd projects</h1>
+        </div>
         <div class="container">
             <div class="columns is-multiline">
                 <single-project 
@@ -35,8 +33,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-    h1.section-naming {
-        padding-left: 1.25rem;
-    }
+<style lang="scss" scoped>
+
 </style>

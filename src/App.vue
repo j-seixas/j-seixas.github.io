@@ -38,5 +38,6 @@ export default {
 
   .app {
     background: $custom-c4;
+    overflow-x: hidden;
   }
 </style>
