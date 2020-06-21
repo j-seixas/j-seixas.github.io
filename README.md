@@ -2,6 +2,14 @@
 
 [![Build Status](https://travis-ci.org/j-seixas/j-seixas.github.io.svg?branch=dev)](https://travis-ci.org/j-seixas/j-seixas.github.io)
 
+Live @ [https://j-seixas.me/](https://j-seixas.me/)
+
+Portfolio website. Made using VueJS and Bulma. Deployed with TravisCI to master branch.
+
+[Code in dev branch](https://github.com/j-seixas/j-seixas.github.io/tree/dev)
+
+
+
 ## Project setup
 ```
 npm install
@@ -16,11 +24,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
