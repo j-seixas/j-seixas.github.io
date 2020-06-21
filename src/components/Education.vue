@@ -6,12 +6,12 @@
         </div>
         <div class="container">
             <div class="edu-entry">
-                <p class="title is-4"><span class="is-family-code">-> </span>BSc + MSc in Informatics and Computer Engineering in Porto, Portugal</p>
+                <p class="title is-4"><span class="is-family-code">-> </span>BSc + MSc in Informatics and Computing Engineering in Porto, Portugal</p>
                 <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2015 ~ Present</p>
                 <p class="subtitle is-6 place">
                     <span class="icon is-small">
                         <i class="fas fa-map-marker-alt"></i>
-                    </span> Faculty of Engineering at University of Porto</p>
+                    </span><a href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" class="icon-link"> Faculty of Engineering at University of Porto</a></p>
 
             </div>
 
@@ -21,7 +21,7 @@
                 <p class="subtitle is-6 place">
                     <span class="icon is-small">
                         <i class="fas fa-map-marker-alt"></i>
-                    </span> Faculty of Computer Science and Telecommunications at Cracow University of Technology</p>
+                    </span><a href="http://iro.pk.edu.pl/faculty-of-computer-science-and-telecommunications/" class="icon-link"> Faculty of Computer Science and Telecommunications at Cracow University of Technology</a></p>
             </div>
         </div>
     </section>

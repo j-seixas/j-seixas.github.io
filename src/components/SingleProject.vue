@@ -44,7 +44,15 @@ export default {
     .card {
         display: flex;
         flex-direction: column;
-        height: 100%
+        height: 100%;
+    }
+
+    .card.proj {
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: translate(0.2rem, -0.2rem)
+        }
     }
 
     .card-content {

@@ -7,7 +7,7 @@
                     <span class="last-name"> Seixas</span>
                 </h1>
                 <h2 class="subtitle">
-                    <p><a href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742"> BSc + MSc Informatics and Computer Engineering</a> Student <a href="https://sigarra.up.pt/feup/pt/web_page.inicial">@FEUP</a></p>
+                    <p><a href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742"> BSc + MSc Informatics and Computing Engineering</a> Student <a href="https://sigarra.up.pt/feup/pt/web_page.inicial">@FEUP</a></p>
                 </h2>
                 <div class="container social">
                     <span class="icon is-medium">
@@ -40,7 +40,7 @@
         <div class="hero-foot has-text-centered">
             <div class="container">
                 <span class="icon is-large">
-                    <a :class="{ 'dont-show': !showArrow }" class="icon-link" href="#" v-scroll-to="'#education'">
+                    <a :class="{ 'dont-show': !showArrow }" class="icon-link arrow" href="#" v-scroll-to="'#education'">
                         <i class="fas fa-2x fa-chevron-down"></i>
                     </a>
                 </span>
@@ -115,6 +115,12 @@ export default {
         span.icon.is-medium {
             margin-right: 1em;
 
+            transition: transform 0.15s;
+
+            &:hover {
+                transform: translate(0.05rem, -0.05rem)
+            }
+
             a:hover {
                 color: $custom-y1-dark
             }
@@ -140,4 +146,24 @@ export default {
     a.icon-link.dont-show {
         visibility: hidden;
     }
+
+    a.icon-link.arrow {
+        animation: downAnim 3s infinite;
+    }
+
+    @keyframes downAnim {
+        0% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        80% {
+            opacity: 0.05;
+            transform: translateY(-1rem);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
 </style>
