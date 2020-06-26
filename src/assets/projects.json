@@ -50,7 +50,7 @@
 {
     "id": 7,
     "title": "Eventually",
-    "link": "https://github.com/j-seixas/lbaw",
+    "link": "https://github.com/j-seixas/feup-lbaw",
     "description": "Event Management Project for Database and Web Applications Laboratory course @ FEUP",
     "tags": ["JavaScript", "HTML", "CSS", "Laravel", "PostgreSQL", "Bootstrap"]
 },
