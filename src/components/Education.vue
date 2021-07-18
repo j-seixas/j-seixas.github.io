@@ -2,12 +2,12 @@
     <section id="education" class="section">
         <div class="container container-header">
             <h1 class="title is-2 section-naming is-family-code">
-                > cd education</h1>
+                > education</h1>
         </div>
         <div class="container">
             <div class="edu-entry">
                 <p class="title is-4"><span class="is-family-code">-> </span>BSc + MSc in Informatics and Computing Engineering in Porto, Portugal</p>
-                <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2015 ~ Present</p>
+                <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2015 ~ Jul 2020</p>
                 <p class="subtitle is-6 place">
                     <span class="icon is-small">
                         <i class="fas fa-map-marker-alt"></i>

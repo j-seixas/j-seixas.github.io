@@ -2,7 +2,7 @@
     <section id="project" class="section">
         <div class="container container-header">
             <h1 class="title is-2 section-naming is-family-code">
-                > ./projects</h1>
+                > projects</h1>
         </div>
         <div class="container">
             <div class="columns is-multiline">

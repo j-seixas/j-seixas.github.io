@@ -3,7 +3,7 @@
 
         <div class="container container-header">
             <h1 class="title is-2 section-naming is-family-code">
-                > ls skills</h1>
+                > skills</h1>
         </div>
 
         <div class="container">
@@ -25,51 +25,41 @@
             <div class="skill">
                 <p class="title is-4"><span class="is-family-code skill-arrow">-> </span>Technologies</p>
                 <div class="tech-list first">
-                    <p class="title is-5 is-family-code">/Programming</p>
+                    <p class="title is-5 is-family-code">_software dev</p>
                     <div class="tags are-medium">
-                        <span class="tag is-family-code is-custom-y1 is-light">C</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">C++</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">C#</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">Java</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">Ruby</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">Ruby on Rails</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Javascript</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Python</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">C</span>
                     </div>
                 </div>
 
                 <div class="tech-list">
-                <p class="title is-5 is-family-code">/Web</p>
+                <p class="title is-5 is-family-code">_web dev</p>
                     <div class="tags are-medium">
                         <span class="tag is-family-code is-custom-y1 is-light">HTML</span>
                         <span class="tag is-family-code is-custom-y1 is-light">CSS/SCSS</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">PHP</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">Laravel</span>
                         <span class="tag is-family-code is-custom-y1 is-light">React</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Vue</span>
                     </div>
                 </div>
 
                 <div class="tech-list">
-                    <p class="title is-5 is-family-code">/Database</p>
+                    <p class="title is-5 is-family-code">_db</p>
                     <div class="tags are-medium">
+                        <span class="tag is-family-code is-custom-y1 is-light">MySQL</span>
                         <span class="tag is-family-code is-custom-y1 is-light">SQLite</span>
                         <span class="tag is-family-code is-custom-y1 is-light">PostgreSQL</span>
                     </div>
                 </div>
                 <div class="tech-list">
-                    <p class="title is-5 is-family-code">/GameDev</p>
+                    <p class="title is-5 is-family-code">_other</p>
                     <div class="tags are-medium">
-                        <span class="tag is-family-code is-custom-y1 is-light">Unity</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">LibGDX</span>
-                    </div>
-                </div>
-                <div class="tech-list">
-                    <p class="title is-5 is-family-code">/Other</p>
-                    <div class="tags are-medium">
-                        <span class="tag is-family-code is-custom-y1 is-light">Qt</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">React Native</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">Android Native</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">Java Swing</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">ElasticSearch</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">WhatsApp Business API</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Git</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">Docker</span>
                     </div>
                 </div>
             </div>

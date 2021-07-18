@@ -7,7 +7,7 @@
                     <span class="last-name"> Seixas</span>
                 </h1>
                 <h2 class="subtitle">
-                    <p><a href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742"> BSc + MSc Informatics and Computing Engineering</a> Student <a href="https://sigarra.up.pt/feup/pt/web_page.inicial">@FEUP</a></p>
+                    <p>Software Engineer @ <a href="https://jumpseller.com">Jumpseller</a></p>
                 </h2>
                 <div class="container social">
                     <span class="icon is-medium">
@@ -40,7 +40,7 @@
         <div class="hero-foot has-text-centered">
             <div class="container">
                 <span class="icon is-large">
-                    <a :class="{ 'dont-show': !showArrow }" class="icon-link arrow" href="#" v-scroll-to="'#education'">
+                    <a :class="{ 'dont-show': !showArrow }" class="icon-link arrow" href="#" v-scroll-to="'#experience'">
                         <i class="fas fa-2x fa-chevron-down"></i>
                     </a>
                 </span>

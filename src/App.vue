@@ -2,6 +2,7 @@
     <div class='app'>
         <navbar/>
         <intro/>
+        <experience/>
         <education/>
         <skills/>
         <projects/>
@@ -12,6 +13,7 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Intro from './components/Intro.vue';
+import Experience from './components/Experience.vue';
 import Education from './components/Education.vue';
 import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue';
@@ -22,6 +24,7 @@ export default {
   components: {
     'navbar': Navbar,
     'intro': Intro,
+    'experience': Experience,
     'education': Education, 
     'skills': Skills,
     'projects': Projects

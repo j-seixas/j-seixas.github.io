@@ -13,14 +13,17 @@
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': showNav }">
     
             <div class="navbar-end">
+                <a class="navbar-item is-family-code" href="#" v-scroll-to="'#experience'">
+                    _experience
+                </a>
                 <a class="navbar-item is-family-code" href="#" v-scroll-to="'#education'">
-                    Education_
+                    _education
                 </a>
                 <a class="navbar-item is-family-code" href="#" v-scroll-to="'#skills'">
-                    Skills_
+                    _skills
                 </a>
                 <a class="navbar-item is-family-code" href="#" v-scroll-to="'#project'">
-                    Projects_
+                    _projects
                 </a>
                 
             </div>
