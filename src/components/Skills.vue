@@ -32,6 +32,7 @@
                         <span class="tag is-family-code is-custom-y1 is-light">Javascript</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Python</span>
                         <span class="tag is-family-code is-custom-y1 is-light">C</span>
+                        <span class="tag is-family-code is-custom-y1 is-light">Java</span>
                     </div>
                 </div>
 
@@ -57,7 +58,6 @@
                     <p class="title is-5 is-family-code">_other</p>
                     <div class="tags are-medium">
                         <span class="tag is-family-code is-custom-y1 is-light">ElasticSearch</span>
-                        <span class="tag is-family-code is-custom-y1 is-light">WhatsApp Business API</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Git</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Docker</span>
                     </div>

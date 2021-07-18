@@ -10,7 +10,7 @@
                 <p class="subtitle is-6 date is-family-code tag is-custom-y1 is-light">Sep 2020 ~ Present</p>
                 <div class="content">
                     <ul>
-                        <li> Develop new and mantain core functionality in Ruby, Ruby on Rails, MySQL and React.</li>
+                        <li> Develop new and maintain core functionality in Ruby, Ruby on Rails, MySQL and React.</li>
                         <li> Designed and developed ElasticSearch abstraction in Ruby and Python.</li>
                     </ul>
                 </div>
