@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "deploy": "sh deploy.sh",
     "readme": "sh copy_readme.sh",
-    "travis-build": "npm run build; npm rum readme"
+    "travis-build": "npm run build && npm run readme"
   },
   "dependencies": {
     "bulma": "^0.8.2",
