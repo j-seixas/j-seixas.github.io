@@ -25,7 +25,7 @@
             <div class="skill">
                 <p class="title is-4"><span class="is-family-code skill-arrow">-> </span>Technologies</p>
                 <div class="tech-list first">
-                    <p class="title is-5 is-family-code">_software dev</p>
+                    <p class="title is-5 is-family-code">_programming</p>
                     <div class="tags are-medium">
                         <span class="tag is-family-code is-custom-y1 is-light">Ruby</span>
                         <span class="tag is-family-code is-custom-y1 is-light">Ruby on Rails</span>
@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="tech-list">
-                <p class="title is-5 is-family-code">_web dev</p>
+                <p class="title is-5 is-family-code">_web</p>
                     <div class="tags are-medium">
                         <span class="tag is-family-code is-custom-y1 is-light">HTML</span>
                         <span class="tag is-family-code is-custom-y1 is-light">CSS/SCSS</span>
