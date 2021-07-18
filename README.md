@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/j-seixas/j-seixas.github.io.svg?branch=dev)](https://travis-ci.org/j-seixas/j-seixas.github.io)
 
-Live @ [https://j-seixas.me/](https://j-seixas.me/)
+Live @ [https://j-seixas.github.io/](https://j-seixas.github.io/)
 
 Portfolio website. Made using VueJS and Bulma. Deployed with TravisCI to master branch.
 
