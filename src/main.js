@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueGtag from "vue-gtag"
+
+Vue.use(VueGtag, {
+  config: { id: "G-TC2ZTEJMTT" }
+});
 
 Vue.config.productionTip = false
 var VueScrollTo = require('vue-scrollto');
